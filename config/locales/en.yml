@@ -391,6 +391,10 @@ en:
         user:
           email_user: Email this user
           preview: '(%{who}) added %{created_at}'
+          edit_editor: 'Edit this editor'
+          edit_admin: 'Edit this administrator'
+          delete_editor: 'Delete this editor'
+          delete_admin: 'Delete this administrator'
     created:
       'with_article "the"': added
     crudify:

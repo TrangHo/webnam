@@ -1,0 +1,8 @@
+<% editing_site = (session[:current_site].present? && (session[:current_site] != -1)) %>
+
+<ul>
+  <li>
+    <%= link_to editing_site ? t('.create_new_editor') : t('.create_new_admin'),
+                refinery.new_admin_user_path, :class => "add_icon" %>
+  </li>
+</ul>
